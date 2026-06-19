@@ -91,7 +91,7 @@ const BottomNavigation = () => {
             </div>
 
             {/* ✨ Custom Animations */}
-            <style jsx>{`
+            <style >{`
         @keyframes fadeInLeft {
           from {
             opacity: 0;

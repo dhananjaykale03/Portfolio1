@@ -81,7 +81,7 @@
   }
 
   .dark {
-    /* Dark Mode Colors - Navy Blue Aesthetic (inspired by nayanbagale.me) */
+    /* Dark Mode Colors - Navy Blue Aesthetic (inspired by Dhananjay.me) */
     --background: 215 30% 8%;
     --foreground: 0 0% 95%;
 
@@ -151,7 +151,19 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+
+      .background {
+          position: fixed;
+          inset: 0;
+          z-index: -2;
+
+          background:
+                  radial-gradient(
+                          circle at center,
+                          hsl(var(--primary) / 0.15),
+                          hsl(var(--background)) 70%
+                  );
+      }
     overflow-x: hidden;
   }
 }

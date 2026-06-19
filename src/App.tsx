@@ -8,6 +8,7 @@ import { ThemeProvider } from "next-themes";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import AIChatAssistant from "./components/AIChatAssistant";
+import StarBackground from "./components/StarBackground";
 const queryClient = new QueryClient({
     defaultOptions: {
         queries: {
@@ -27,6 +28,7 @@ const App = () => {
                 <TooltipProvider>
                     <Toaster />
                     <Sonner />
+                    <StarBackground />
                     <BrowserRouter>
                         <Routes>
                             <Route path="/" element={<Index />} />
