@@ -9,7 +9,7 @@ const Hero = () => {
     const [isResumeOpen, setIsResumeOpen] = useState(false);
 
     const { currentText } = useTypingEffect({
-        words: ['Web Developer', 'FullStack Developer', ],
+        words: ['Java FullStack Developer ', 'Software Developer', ],
         typeSpeed: 100,
         deleteSpeed: 50,
         delayBetweenWords: 2000,
@@ -40,7 +40,7 @@ const Hero = () => {
                     <div className="animate-fade-in text-left max-w-6xl">
                         <div className="mb-4">
                             <h1 className="text-4xl font-normal text-text-primary mb-2">
-                                Hi,👋
+                                Hey,👋
                             </h1>
 
                             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 leading-tight">

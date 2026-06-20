@@ -151,7 +151,6 @@
   }
 
   body {
-
       .background {
           position: fixed;
           inset: 0;
@@ -206,7 +205,7 @@
   
   /* Section Spacing */
   .section-padding {
-    @apply py-20 px-6 max-w-7xl mx-auto;
+      @apply py-12 px-6 max-w-7xl mx-auto;
   }
   
   /* Interactive Elements */
